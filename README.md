@@ -25,6 +25,14 @@ Each milestone record binds a privately retained complete Git bundle, tracked-so
 
 These records support development continuity and later comparison. They do not independently prove authorship, originality, legal compliance, product safety, commercial readiness, or an immutable trusted timestamp.
 
+## Partnership and development support
+
+For development sponsorship, strategic partnerships, research collaboration, or early product discussions, contact [itherla.project@gmail.com](mailto:itherla.project@gmail.com).
+
+開發贊助、策略合作、研究交流或早期產品合作洽詢，請聯絡 [itherla.project@gmail.com](mailto:itherla.project@gmail.com)。
+
+Contact does not by itself create confidentiality, investment, equity, partnership, endorsement, or product-access obligations. Please do not send credentials, private datasets, proprietary source code, or other confidential material before both parties agree on an appropriate channel and terms.
+
 ## Repository boundaries
 
 - [Copyright, brand, and use notice](COPYRIGHT_AND_USE.md)
