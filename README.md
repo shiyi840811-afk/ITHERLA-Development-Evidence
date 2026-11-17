@@ -1,6 +1,6 @@
 # ITHERLA Development Evidence
 
-Private development-evidence ledger for ITHERLA, a player-facing AI Agent product under active development.
+Public development-evidence ledger for ITHERLA, a player-facing AI Agent product under active development.
 
 This repository records milestone summaries and cryptographic identifiers only. It does not contain source code, private datasets, credentials, executable packages, proprietary algorithms, or complete architecture details.
 
@@ -24,3 +24,14 @@ The current line contains an isolated cognitive-core prototype and its contracts
 Each milestone record binds a privately retained complete Git bundle, tracked-source snapshot, validation output, Git HEAD and tree identifiers, and SHA-256 manifest. The private artifacts stay on the development machine and are not uploaded to this ledger.
 
 These records support development continuity and later comparison. They do not independently prove authorship, originality, legal compliance, product safety, commercial readiness, or an immutable trusted timestamp.
+
+## Repository boundaries
+
+- [Copyright, brand, and use notice](COPYRIGHT_AND_USE.md)
+- [Contribution policy](CONTRIBUTING.md)
+- [Security reporting scope](SECURITY.md)
+- [Public-release readiness record](PUBLICATION_READINESS.md)
+
+Public visibility is not an open-source license. Unless a file states otherwise, all rights are reserved. The ITHERLA name, visual identity, product concepts, and unpublished implementation are not licensed for commercial reuse by this repository.
+
+This repository is a limited public record, not the product distribution channel. It accepts no source-code, model, dataset, prompt, architecture, or executable contributions at this stage.
