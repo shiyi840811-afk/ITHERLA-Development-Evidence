@@ -76,6 +76,66 @@ capability should stop instead of silently bypassing governance.
   diagnosis, and clear disclosure of current limits.
 - **Validation before claims**: support is claimed only after the relevant capability is tested.
 
+## How We Approach AI Safety
+
+ITHERLA does not assume that any model will always be correct, and it does not depend on model
+self-restraint as the primary safety boundary.
+
+Observation, interpretation, memory, skills, authorization, and execution are handled as separate
+layers. Model output begins as a candidate. Memory, familiarity, confidence, historical success,
+and procedural knowledge cannot create tool or action authority. Before an external effect is
+allowed, the system must re-evaluate Agent identity, current user intent, valid authorization,
+capability scope, and execution boundaries.
+
+The safety approach follows several principles:
+
+- **Models do not own authority**: a model may reason and propose, but it cannot create or expand
+  authorization.
+- **Memory is separate from capability**: knowing how to perform an action does not mean the
+  action is currently permitted.
+- **Consequential actions require renewed validation**: irreversible, sensitive, or
+  cross-boundary actions require matching user authorization.
+- **Failures should degrade locally**: when one component becomes unreliable, the affected
+  capability should stop without silently weakening the rest of the system.
+- **The system must remain stoppable and recoverable**: diagnosis, pause, revocation, rollback,
+  and human takeover are part of the design.
+- **Safety is not treated as zero risk**: it is an ongoing engineering process involving
+  validation, adversarial testing, review, and correction.
+
+The goal is not to create an Agent that can never be wrong. The goal is to prevent an error from
+automatically becoming authority, and to make drift visible, bounded, repairable, and safely
+stoppable.
+
+## How We Approach Employment Anxiety in the AI Era
+
+Rapid improvements in AI have also created understandable concern that human experience,
+employment, and learning speed may be left behind. ITHERLA does not promise to eliminate
+unemployment, and it does not present AI as a complete answer to social or economic problems.
+
+Our direction is to make AI understandable, governable, replaceable, and capable of long-term
+collaboration without requiring users to surrender judgment.
+
+Within the ITHERLA concept:
+
+- Humans retain responsibility for goals, values, authorization, and consequential decisions.
+- Agents help organize information, preserve experience, learn procedures, and reduce repetitive
+  work.
+- Model engines can be replaced without forcing legally portable memory and skills to disappear
+  with one provider.
+- Collaboration supports correction in both directions instead of training users to accept every
+  AI conclusion.
+- Games provide the first product setting because interest, cooperation, and low-pressure
+  experimentation can be a healthier introduction to AI than requiring everyone to become a
+  prompt engineer.
+
+We believe the more sustainable response to AI-driven change is not to frame humans and AI only
+as replacements for one another. It is to help more people combine their judgment and experience
+with governed Agents as small, capable human-AI teams.
+
+This cannot guarantee that anyone's work will remain unchanged. It aims to preserve something
+more fundamental: after adopting AI, a person should still be able to think, choose, refuse, and
+carry learned capabilities into the next stage of life and work.
+
 ## Development Progress
 
 | Stage | Status | Public summary |
@@ -115,6 +175,10 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
 - **2026-11-17**: Published the bilingual product concept and progress pages; recorded the current
   cognitive-core integration phase and the public directions for fair memory capacity, Rights &
   Provenance, replaceable models, and later product qualification.
+- **2026-11-17 22:43:53 UTC+08:00**: Added the public AI-safety approach and position on
+  employment anxiety, including layered authority, stoppability and rollback, explicit rejection
+  of zero-risk claims, and the direction of human judgment working with governed Agents as small
+  collaborative teams.
 
 ## Maturity Notice
 
