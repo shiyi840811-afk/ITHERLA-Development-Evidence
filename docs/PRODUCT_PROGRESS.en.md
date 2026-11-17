@@ -106,6 +106,16 @@ capability should stop instead of silently bypassing governance.
 - Complete stoppable, recoverable, and diagnosable foundations before product UI, game control,
   or public testing begins.
 
+## Public Update History
+
+Beginning on `2026-11-17`, material changes to product direction, maturity, or validation status
+will be recorded here with explicit dates. Earlier development history will not be reconstructed
+from guesswork; verifiable earlier milestones remain represented by Git and evidence records.
+
+- **2026-11-17**: Published the bilingual product concept and progress pages; recorded the current
+  cognitive-core integration phase and the public directions for fair memory capacity, Rights &
+  Provenance, replaceable models, and later product qualification.
+
 ## Maturity Notice
 
 ITHERLA remains an active research and product-engineering project. It is not a finished download,
