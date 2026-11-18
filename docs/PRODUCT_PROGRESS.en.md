@@ -1,8 +1,8 @@
 # ITHERLA Product Concept and Development Progress
 
-Updated: 2026-11-17  
-Current phase: cognitive-core integration  
-Private source checkpoint: `2098fae`
+Updated: 2026-11-18
+Current phase: cognitive-core integration
+Private source checkpoint: `ce6f78c`
 
 [Traditional Chinese version](PRODUCT_PROGRESS.zh-TW.md)
 
@@ -142,6 +142,7 @@ carry learned capabilities into the next stage of life and work.
 | --- | --- | --- |
 | Cognitive-core baseline | Isolated validation complete | Domain-neutral context, fact, memory, affect, reasoning, and governance contracts exist; this does not mean the product Runtime is complete |
 | Core integration path | In progress | Building one verifiable read/write path so components cannot bypass governance independently |
+| Multimodal perception and context separation | Isolated data foundation complete | Authority-free source, event, context-revision, and action-feedback foundations exist; real perception and product wiring are not enabled |
 | Memory and skill lifecycle | Planned / not implemented | Consolidation, recall, skill extraction, fair capacity, backup, and portability |
 | Rights and provenance governance | Planned / not implemented | Separate treatment for reading, abstraction, private experiments, adaptation, commercial use, and redistribution |
 | Real models and managed runtime | Blocked by prerequisites | Local, cloud, hybrid, and managed-runtime compatibility and degradation will be qualified |
@@ -157,6 +158,12 @@ carry learned capabilities into the next stage of life and work.
    eligibility.
 3. User-delegated Agent assistance without self-expanding authority, redelegation, or sacrificing
    another Agent's protected space.
+4. Visual, auditory, tactile, chat, and external inputs are treated as separable perception
+   sources. Source, time, and context boundaries come before later cognitive interpretation so
+   game, media, user, and Agent events are not silently conflated.
+5. Perception, safety assessment, affect, facts, Agent memory, skills, source archives, and large
+   media are governed as separate write domains. Successful storage does not itself create truth,
+   memory, authority, or recall eligibility.
 
 ## Next Steps
 
@@ -179,6 +186,11 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
   employment anxiety, including layered authority, stoppability and rollback, explicit rejection
   of zero-risk claims, and the direction of human judgment working with governed Agents as small
   collaborative teams.
+- **2026-11-18 17:42:11 UTC+08:00**: Added an isolated multimodal-perception and context-separation
+  data foundation. Sources, events, context revisions, and action feedback remain authority-free,
+  while perception, safety, affect, facts, memory, skills, source archives, and media retain
+  separate write domains. This checkpoint passed `544` isolated tests; it does not claim real
+  perception models, cross-store recall, game control, or a completed product Runtime.
 
 ## Maturity Notice
 
