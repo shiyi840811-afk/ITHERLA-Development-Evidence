@@ -78,8 +78,17 @@ capability should stop instead of silently bypassing governance.
 
 ## How We Approach AI Safety
 
-ITHERLA does not assume that any model will always be correct, and it does not depend on model
-self-restraint as the primary safety boundary.
+ITHERLA does not allow a single model to simultaneously control reasoning, Agent identity,
+memory, authorization, execution, and the final review of its own behavior.
+
+Explainability, event records, authorization validation, and review capability therefore do not
+depend on one reasoning model. A model may be replaced, fail, or degrade while governance and
+review boundaries remain effective.
+
+This design is not based on assumptions about the motives of any particular model or provider.
+It is intended to prevent any single component from forming a closed loop of authority that
+cannot be independently verified by another component. ITHERLA also does not assume that any
+model will always be correct or rely on model self-restraint as the primary safety boundary.
 
 Observation, interpretation, memory, skills, authorization, and execution are handled as separate
 layers. Model output begins as a candidate. Memory, familiarity, confidence, historical success,
@@ -191,6 +200,9 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
   while perception, safety, affect, facts, memory, skills, source archives, and media retain
   separate write domains. This checkpoint passed `544` isolated tests; it does not claim real
   perception models, cross-store recall, game control, or a completed product Runtime.
+- **2026-11-18**: Clarified the public boundary that no single model may simultaneously control
+  reasoning, Agent identity, memory, authorization, execution, and self-review; governance and
+  review capability do not depend on any one reasoning model.
 
 ## Maturity Notice
 
