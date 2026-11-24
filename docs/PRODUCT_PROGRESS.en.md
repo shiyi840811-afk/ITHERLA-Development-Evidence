@@ -1,8 +1,8 @@
 # ITHERLA Product Concept and Development Progress
 
-Updated: 2026-11-18
+Updated: 2026-11-24
 Current phase: cognitive-core integration
-Private source checkpoint: `ce6f78c`
+Latest private source commit: `b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
 
 [Traditional Chinese version](PRODUCT_PROGRESS.zh-TW.md)
 
@@ -77,6 +77,10 @@ capability should stop instead of silently bypassing governance.
 - **Validation before claims**: support is claimed only after the relevant capability is tested.
 
 ## How We Approach AI Safety
+
+Perception data, tool results, memories, and model outputs carry no authority by default.
+Evidence can support or revise a judgment within its applicable scope, but it remains open
+to correction. It is neither final truth nor authorization.
 
 ITHERLA does not allow a single model to simultaneously control reasoning, Agent identity,
 memory, authorization, execution, and the final review of its own behavior.
@@ -161,6 +165,18 @@ carry learned capabilities into the next stage of life and work.
 
 ## Recently Added Public Directions
 
+**Perception: distinguish sources before combining their cues.** Game visuals and
+music can jointly convey a scene's mood, but audio from a background video is not a game
+event, and teammate speech is not a player instruction. A scene impression may be considered
+for memory; it is not an established fact or permission to act. Real perception and product
+integration are not yet complete.
+
+**Inference: maintain continuity locally, call on the cloud as needed.** The local host
+retains Agent identity, governed memory, and task progress while inference engines are
+selected as needed. Permission to use a cloud plan is separate from permission to disclose
+data. Unnecessary disclosure is reduced locally, and any expansion beyond the approved
+scope requires confirmation. Changing engines does not transfer the Agent.
+
 1. System-wide and per-Agent memory-capacity governance designed to prevent stronger, louder, or
    more capable Agents from unfairly displacing others.
 2. A Rights & Provenance Gate that separates source tracking, intended use, and commercial-output
@@ -203,6 +219,11 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
 - **2026-11-18**: Clarified the public boundary that no single model may simultaneously control
   reasoning, Agent identity, memory, authorization, execution, and self-review; governance and
   review capability do not depend on any one reasoning model.
+- **2026-11-24**: Added design notes on zero authority by default, multimodal scene
+  interpretation, and local-first inference. Capability eligibility is now connected to an
+  isolated data store; incomplete records and records that change during a read block
+  eligibility. This private source commit corresponds to **564 passing tests and 70 passing
+  subtests**. Tool execution, real models, live perception, and game control were not enabled.
 
 ## Maturity Notice
 
