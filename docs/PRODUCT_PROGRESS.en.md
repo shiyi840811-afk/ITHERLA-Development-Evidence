@@ -209,6 +209,7 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
   use boundaries, and in-chat age-context updates. These product directions still await implementation or validation.
 - **2026-11-25**: Added a [public architecture overview and permission boundaries](TECHNICAL_CONCEPTS.en.md#conceptual-architecture),
   with written game and work-chat examples distinguishing context interpretation from action eligibility. Documentation update only.
+- **2026-11-25**: Expanded [memory, skills, and authority](TECHNICAL_CONCEPTS.en.md#memory-skills-and-authority), explaining how experience guides new observations, how procedures can be shared, and how risk shapes checking and action. Documentation update only.
 
 ## Maturity Notice
 
