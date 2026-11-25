@@ -4,6 +4,50 @@ Updated: 2026-11-25 · [繁體中文](TECHNICAL_CONCEPTS.zh-TW.md) · [Product a
 
 This page describes design directions without publishing source code, internal contracts, algorithms, or restricted data. See the progress page for current maturity.
 
+ITHERLA aims to be an Agent that can play alongside you within the boundaries you set. Changing the model should not mean changing your teammate. Remembering how you played together does not grant permission to keep playing on your behalf.
+
+## Conceptual architecture
+
+```text
+Game Screen / Audio / Action Feedback
+                  |
+                  v
+          Perception System
+      Separate Sources and Align Cues
+                  |
+                  v
+        Context Resolver (CXR)
+          Interpret the Situation
+                  |
+                  +<--- Governed Memory
+                  |
+                  v
+          Model: Propose an Action
+                  |
+                  v
+          Permission Check <--- Player: Authorize / Revoke
+                  |
+                  +-- Eligible ------> Game Action Path
+                  +-- Not Eligible --> Do Not Execute
+
+Player: Stop / Take Over ------------> Game Action Path
+```
+
+This diagram shows responsibilities, not implementation wiring. Perception organizes current signals and CXR interprets the situation. Memory informs judgment; it is neither fresh observation nor permission. Players do not need the model's approval to stop or take over.
+
+## Permissions: the model can propose, but it cannot authorize itself
+
+A system outside the model determines action eligibility based on the player's active authorization, the current task, and the permitted scope. Model confidence, past experience, and switching engines cannot broaden permission. After a stop or revocation, queued or late model proposals cannot justify continuing an action.
+
+**Validated in isolation:** Core eligibility checks are connected to an isolated data store. If a required record is missing or changes during a read, the eligibility check does not pass. **Still to validate:** Live game input, player takeover, and stopping actions after revocation in an end-to-end workflow.
+
+## Same Send button, different context
+
+- **In a game:** You ask the Agent to send a rally point to your teammates. If you have authorized team messaging for that match, it can help within that scope without asking before every message.
+- **Outside the game:** The game is still open, but you switch to a work chat. The same Send button does not carry over your game authorization. The Agent can help draft a message, but cannot send it under that permission.
+
+CXR helps distinguish the situation. A separate permission check determines whether an action is eligible. These examples describe intended behavior, not live product features.
+
 ## Perception and scene understanding
 
 Visuals, sound, action feedback, and other inputs are separated by source and context before being interpreted together. A background video may play alongside a game without its audio belonging to the same event. An Agent sending a control input does not prove that the game performed the expected action.

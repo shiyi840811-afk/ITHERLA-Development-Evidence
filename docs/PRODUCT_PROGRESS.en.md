@@ -207,6 +207,8 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
   and read-only context packets. The latest confirmed isolated regression passed **571 tests and 75 subtests**.
   Technical concepts moved to a separate page covering perception model comparisons, cloud request and
   use boundaries, and in-chat age-context updates. These product directions still await implementation or validation.
+- **2026-11-25**: Added a [public architecture overview and permission boundaries](TECHNICAL_CONCEPTS.en.md#conceptual-architecture),
+  with written game and work-chat examples distinguishing context interpretation from action eligibility. Documentation update only.
 
 ## Maturity Notice
 
