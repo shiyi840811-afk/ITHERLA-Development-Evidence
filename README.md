@@ -2,14 +2,16 @@
 
 Public development-evidence ledger for ITHERLA, a player-facing AI Agent product under active development.
 
-This repository records milestone summaries and cryptographic identifiers only. It does not contain source code, private datasets, credentials, executable packages, proprietary algorithms, or complete architecture details.
+This repository publishes high-level product and technical concepts, milestone summaries, and cryptographic identifiers. It does not contain source code, private datasets, credentials, executable packages, proprietary algorithms, or complete architecture details.
 
 ## Product concept and progress
 
 - [繁體中文｜產品概念與開發進度](docs/PRODUCT_PROGRESS.zh-TW.md)
 - [English | Product Concept and Development Progress](docs/PRODUCT_PROGRESS.en.md)
+- [繁體中文｜公開技術概念](docs/TECHNICAL_CONCEPTS.zh-TW.md)
+- [English | Public Technical Concepts](docs/TECHNICAL_CONCEPTS.en.md)
 
-These documents explain the problems ITHERLA is intended to address, the public design principles, current maturity, and the next validation stages. They intentionally omit source code, proprietary algorithms, private schemas, security-sensitive implementation details, and unsupported capability claims.
+The progress pages track product direction, maturity, and dated milestones. The companion concept pages explain design choices without disclosing implementation details.
 
 ## Product direction
 

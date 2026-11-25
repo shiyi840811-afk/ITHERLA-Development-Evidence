@@ -1,6 +1,6 @@
 # ITHERLA Product Concept and Development Progress
 
-Updated: 2026-11-24
+Updated: 2026-11-25
 Current phase: cognitive-core integration
 Latest private source commit: `b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
 
@@ -163,32 +163,11 @@ carry learned capabilities into the next stage of life and work.
 | Game adapters and control | Not enabled | Deterministic harnesses and simulated games come before legally supported real-game scenarios |
 | Public testing and commercial release | Not started | Installation, update, rollback, licensing, privacy, compatibility, security, and long-duration validation remain required |
 
-## Recently Added Public Directions
+## Public Technical Concepts
 
-**Perception: distinguish sources before combining their cues.** Game visuals and
-music can jointly convey a scene's mood, but audio from a background video is not a game
-event, and teammate speech is not a player instruction. A scene impression may be considered
-for memory; it is not an established fact or permission to act. Real perception and product
-integration are not yet complete.
-
-**Inference: maintain continuity locally, call on the cloud as needed.** The local host
-retains Agent identity, governed memory, and task progress while inference engines are
-selected as needed. Permission to use a cloud plan is separate from permission to disclose
-data. Unnecessary disclosure is reduced locally, and any expansion beyond the approved
-scope requires confirmation. Changing engines does not transfer the Agent.
-
-1. System-wide and per-Agent memory-capacity governance designed to prevent stronger, louder, or
-   more capable Agents from unfairly displacing others.
-2. A Rights & Provenance Gate that separates source tracking, intended use, and commercial-output
-   eligibility.
-3. User-delegated Agent assistance without self-expanding authority, redelegation, or sacrificing
-   another Agent's protected space.
-4. Visual, auditory, tactile, chat, and external inputs are treated as separable perception
-   sources. Source, time, and context boundaries come before later cognitive interpretation so
-   game, media, user, and Agent events are not silently conflated.
-5. Perception, safety assessment, affect, facts, Agent memory, skills, source archives, and large
-   media are governed as separate write domains. Successful storage does not itself create truth,
-   memory, authority, or recall eligibility.
+See [Public Technical Concepts](TECHNICAL_CONCEPTS.en.md) for multimodal perception,
+local-first inference, memory and skill boundaries, and age-context updates within the same chat.
+This page tracks product direction, maturity, and dated progress.
 
 ## Next Steps
 
@@ -224,6 +203,10 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
   isolated data store; incomplete records and records that change during a read block
   eligibility. This private source commit corresponds to **564 passing tests and 70 passing
   subtests**. Tool execution, real models, live perception, and game control were not enabled.
+- **2026-11-25**: Core integration added isolated validation for governed memory disposition records
+  and read-only context packets. The latest confirmed isolated regression passed **571 tests and 75 subtests**.
+  Technical concepts moved to a separate page covering perception model comparisons, cloud request and
+  use boundaries, and in-chat age-context updates. These product directions still await implementation or validation.
 
 ## Maturity Notice
 
