@@ -59,7 +59,7 @@ Please include a brief overview in your first email and leave out confidential i
 - [Security reporting scope](SECURITY.md)
 - [Public-release readiness record](PUBLICATION_READINESS.md)
 
-Public visibility is not an open-source license. Unless a file states otherwise, all rights are reserved. The ITHERLA name, visual identity, product concepts, and unpublished implementation are not licensed for commercial reuse by this repository.
+This repository shares ITHERLA's product direction, technical concepts, and development records. It does not provide source code or unpublished implementation details. Unless a file states otherwise, the published material is not open source and all rights are reserved. For commercial use of the ITHERLA name, logo, or visual assets, please [contact us](mailto:itherla.project@gmail.com) first.
 
 This repository is a limited public record, not the product distribution channel. It accepts no source-code, model, dataset, prompt, architecture, or executable contributions at this stage.
 
@@ -68,6 +68,6 @@ This repository is a limited public record, not the product distribution channel
 - [資安通報範圍](SECURITY.md)
 - [公開發行準備紀錄](PUBLICATION_READINESS.md)
 
-公開可見不等於開源授權。除非個別檔案另有說明，均保留所有權利。本庫不授權將 ITHERLA 名稱、視覺識別、產品概念或未公開實作用於商業再利用。
+本庫公開的是 ITHERLA 的產品方向、技術概念與開發紀錄，不提供原始碼或未公開實作。除非個別檔案另有說明，公開內容並未採用開源授權，並保留所有權利。若想將 ITHERLA 的名稱、標誌或視覺素材用於商業用途，請先[聯繫我們](mailto:itherla.project@gmail.com)。
 
 這裡是有限範圍的公開紀錄，不是產品下載管道。現階段不接受原始碼、模型、資料集、提示詞、架構或可執行檔的投稿。
