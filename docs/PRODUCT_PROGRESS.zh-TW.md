@@ -2,7 +2,7 @@
 
 更新日期：2026-11-27
 目前階段：認知核心整合主線
-最新公開留存的私人來源提交：`b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
+最新公開留存的私人來源提交：[`b9160aa5587a21166731effecc6315888a29e31c`](../evidence/2026-11-27_171555_b9160aa5587a.md)
 
 [English version](PRODUCT_PROGRESS.en.md)
 

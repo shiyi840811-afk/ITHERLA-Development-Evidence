@@ -2,7 +2,7 @@
 
 Updated: 2026-11-27
 Current phase: cognitive-core integration
-Latest privately retained source commit recorded in this ledger: `b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
+Latest privately retained source commit recorded in this ledger: [`b9160aa5587a21166731effecc6315888a29e31c`](../evidence/2026-11-27_171555_b9160aa5587a.md)
 
 [Traditional Chinese version](PRODUCT_PROGRESS.zh-TW.md)
 
