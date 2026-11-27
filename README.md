@@ -28,9 +28,9 @@ ITHERLA 的目標是讓經使用者授權的 AI Agent 觀察並參與支援的�
 
 ## Current Maturity｜目前開發狀態
 
-The current line contains an isolated cognitive-core prototype and its contracts and tests. It is not yet a finished player product. Player-facing UI, real model integration, NVIDIA OpenShell integration, game adapters, virtual input, installer lifecycle, and public release qualification remain incomplete or disabled unless a later evidence record explicitly shows otherwise.
+ITHERLA now has a local Windows desktop UI prototype alongside its isolated cognitive-core prototype. The desktop work focuses on chatting while keeping messages and local previews open in a separate pane or window. Real model integration, game control, and public release are not enabled in this prototype.
 
-目前已建立隔離的認知核心原型，以及對應的契約與測試，尚不是完整的玩家產品。玩家介面、實際模型接線、NVIDIA OpenShell 整合、遊戲介接、虛擬輸入、安裝與更新流程，以及公開發行驗收，仍未完成或未啟用，除非後續的證據紀錄另有明確說明。
+除了隔離的認知核心原型，ITHERLA 現在也有本機 Windows 桌面介面原型。這輪重點是讓玩家能邊聊天、邊在側邊或獨立視窗查看訊息和本機預覽。此原型尚未接上真實模型或遊戲控制，也未公開發行。
 
 ## Evidence Method｜開發證據如何留存
 

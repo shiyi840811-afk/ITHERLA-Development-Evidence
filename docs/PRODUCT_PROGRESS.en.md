@@ -1,8 +1,8 @@
 # ITHERLA Product Concept and Development Progress
 
-Updated: 2026-11-25
+Updated: 2026-11-27
 Current phase: cognitive-core integration
-Latest private source commit: `b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
+Latest privately retained source commit recorded in this ledger: `b0fd9d68e553adc3e548d1ffba17aeba35d5af68`
 
 [Traditional Chinese version](PRODUCT_PROGRESS.zh-TW.md)
 
@@ -159,7 +159,7 @@ carry learned capabilities into the next stage of life and work.
 | Memory and skill lifecycle | Planned / not implemented | Consolidation, recall, skill extraction, fair capacity, backup, and portability |
 | Rights and provenance governance | Planned / not implemented | Separate treatment for reading, abstraction, private experiments, adaptation, commercial use, and redistribution |
 | Real models and managed runtime | Blocked by prerequisites | Local, cloud, hybrid, and managed-runtime compatibility and degradation will be qualified |
-| Player desktop product | Not implemented | Conversation, voice, Agent management, game state, authorization, stop, diagnosis, and resource-governance UI remain incomplete |
+| Player desktop interface | Local Windows prototype | Open message excerpts or local previews alongside chat, and detach or dock tabs. Live Agent integration, voice, and game control are not connected |
 | Game adapters and control | Not enabled | Deterministic harnesses and simulated games come before legally supported real-game scenarios |
 | Public testing and commercial release | Not started | Installation, update, rollback, licensing, privacy, compatibility, security, and long-duration validation remain required |
 
@@ -210,6 +210,7 @@ from guesswork; verifiable earlier milestones remain represented by Git and evid
 - **2026-11-25**: Added a [public architecture overview and permission boundaries](TECHNICAL_CONCEPTS.en.md#conceptual-architecture),
   with written game and work-chat examples distinguishing context interpretation from action eligibility. Documentation update only.
 - **2026-11-25**: Expanded [memory, skills, and authority](TECHNICAL_CONCEPTS.en.md#memory-skills-and-authority), explaining how experience guides new observations, how procedures can be shared, and how risk shapes checking and action. Documentation update only.
+- **2026-11-27**: Updated the Windows desktop UI prototype. Players can keep message excerpts, images, and text beside the conversation, or detach a tab into its own window and dock it again. Chat history now shows date markers. This update validates desktop interactions, not live model integration or game control.
 
 ## Maturity Notice
 
